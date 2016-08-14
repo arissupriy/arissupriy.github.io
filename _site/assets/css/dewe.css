@@ -1,0 +1,308 @@
+body{
+    position: relative;
+}
+
+.container-header{
+    margin: 0 auto;
+    width: 100%;
+    padding: 100px 25px;
+    min-height: 100vh;
+
+}
+
+.container-header li{
+    font-size: 25px;
+}
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.gmbr img{
+
+    width:150px;
+    height:150px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.2s;
+
+    border-radius: 100px ;
+}
+
+.gmbr img:hover{
+
+    box-shadow: 0 8px 16px 0 rgba(221, 3, 36, 0.44);
+}
+
+.gmbr a{
+    font-size: 30px;
+    color: white;
+    margin: 10px 10px;
+}
+
+.gmbr h1{
+    color: #2c2c2c;
+    background-color: transparent;
+    letter-spacing: .07em;
+    text-shadow:
+      4px 4px 0px #b6d59d,
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.btn-dewe{
+    background-color: #1abc9c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn-dewe:hover{
+   background-color: #1abc9c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.shadow{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.36);
+
+}
+
+.project img{
+    height: 70px;
+    width: auto;
+}
+
+.container-dewe{
+    padding: 50px 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 100vh;
+}
+
+.bg-services{
+    background-color: darkseagreen;
+    color: black;
+}
+.bg-header{
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+.bg-self{
+    background-color: #f6f6f6;
+    color: black;
+}
+
+.bg-grey{
+    background-color: lightgrey;
+    color: black;
+}
+
+.logo{
+    font-size: 150px;
+    color: white;
+}
+
+.logo-services{
+    color: white;
+    font-size: 50px;
+}
+
+.portfolio-item{
+    margin: 0 0 15px;
+
+}
+.navbar-back{
+    background-color: #1abc9c;
+    opacity: 0.85;
+
+
+}
+
+.navbar-back span{
+    background-color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: black;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar a:hover{
+    color: black;
+
+}.img-dewe{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
+
+ }
+
+.container-about{
+
+
+    width: 100%;
+    padding: 100px 90px;
+    min-height: 100vh;
+
+}
+.container-about li{
+    font-size: 110px;
+    padding-right: 20px;
+}
+
+
+.container-about a{
+    color: white;
+}
+
+.container-about a:hover{
+    color: darkblue;
+}
+
+.card-b{
+    background-color: white;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.container-about h1{
+    font-family: "Ubuntu";
+}
+
+.card-b h3{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #0f0f0f;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+}
+
+
+
+.card-b h2{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #0f0f0f;
+    font-family: Ubuntu;
+}
+
+.card-about{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+
+    width: 270px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.card-about h1{
+    color: #0f0f0f;
+}
+
+.card{
+    width: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.card img{
+    width: 270px;
+    height: auto;
+}
+
+.container-card{
+    color: #0f0f0f;
+    background-color: white;
+}
+
+.btn-pr{
+    background-color: white;
+    color: #0f0f0f;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+
+}
+
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+
+
+
+}
+
+
+
+.modal-header{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.modal-footer{
+    background-color: #1abc9c;
+    opacity: 0.7;
+}
+
+.center{
+    position: absolute;
+  left: 50%;
+  top: 50%;
+
+  /*
+  Nope =(
+  margin-left: -25%;
+  margin-top: -25%;
+  */
+
+  /*
+  Yep!
+  */
+  transform: translate(-50%, -50%);
+
+  /*
+  Not even necessary really.
+  e.g. Height could be left out!
+  */
+  width: 70%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
